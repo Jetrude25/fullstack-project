@@ -17,12 +17,15 @@ if(isset($_POST['envoyer'])){
     }
     if(isset($message)){
         foreach($$message as $$message){
-            echo '';
+            echo '
+            <div class="message">
+            <span>'.$message.'</span>
+            <i class="fas fa-times" onclick="this.parentElement.remove();"></i>
+        </div>';
         }
     }
 }
 
 
 
-echo "Record saved"
-?>
+echo "Record saved";
