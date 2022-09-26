@@ -1,8 +1,8 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "mysql-victo.alwaysdata.net";
+$username = "victo";
+$password = "Portfoli@";
 $dbname = "portfolio";
 $nom = $_POST['nom'];
 $email = $_POST['email'];
